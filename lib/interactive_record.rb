@@ -133,7 +133,7 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
   
-  def self.find_by
+  def self.find_by(attributes)
     column_name = attribute.keys[0].to_s
      value = attribute.values[0].to_s
     

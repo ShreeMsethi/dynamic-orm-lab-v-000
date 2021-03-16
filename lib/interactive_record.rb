@@ -91,7 +91,10 @@ class InteractiveRecord
     end
     
     column_names.compact
-  end  
+  end
+  
+  column_names.each do |col_name|
+    attr_accessor <<
   
   def initialize(options ={})
     

@@ -81,7 +81,7 @@ class InteractiveRecord
   def self.column_name
     DB[:conn].results_as_hash = true
     
-    
+    sql = "PRAGMA "
     column_name = []
     
   end  

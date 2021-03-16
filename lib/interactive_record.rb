@@ -122,7 +122,7 @@ class InteractiveRecord
   end
   
   def save
-    sql = 
+    sql = "INSERT INTO #{}"
   end  
 
 end  
